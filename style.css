@@ -1,0 +1,76 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body {
+  background-color: #ecfeff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+  letter_spacing: 10px;
+  font-family: Arial, sans-serif;
+  color: #01676b;
+}
+
+.img_circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main_header {
+  color: #00b7c2;
+  font-size: 30px;
+}
+
+#connect_1 {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: #e9e4e6;
+  padding: 3px;
+  margin: 2px;
+  box-shadow: 3px 3px 4px #692db7;
+  color: #113f67;
+}
+
+.headers {
+  color: #128494;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+
+.btn-socials li a {
+  color: #207dff;
+  font-size: 17px;
+  font-family: Times, serif;
+}
+
+.btn-socials li {
+  list-style-type: none;
+}
+
+
+a:hover {
+  color: #a7d129;
+}
+
+div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #692db7;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #3bb4c1;
+  margin: 30px;
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
